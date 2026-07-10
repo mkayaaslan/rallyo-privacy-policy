@@ -1,13 +1,628 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rallyo Privacy Policy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rallyo Privacy Policy</title>
+  <meta
+    name="description"
+    content="Privacy Policy for the Rallyo mobile application."
+  >
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f4f6f8;
+      --card: #ffffff;
+      --text: #202124;
+      --muted: #5f6368;
+      --border: #dadce0;
+      --accent: #1769e0;
+      --notice: #eef4ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111315;
+        --card: #1c1f22;
+        --text: #f1f3f4;
+        --muted: #bdc1c6;
+        --border: #3c4043;
+        --accent: #8ab4f8;
+        --notice: #17243a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto;
+      padding: 48px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.3;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.25rem;
+    }
+
+    h2 {
+      margin-top: 42px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      margin-top: 26px;
+      font-size: 1.1rem;
+    }
+
+    p,
+    li {
+      color: var(--text);
+    }
+
+    .meta,
+    .muted {
+      color: var(--muted);
+    }
+
+    .notice {
+      margin: 28px 0;
+      padding: 18px;
+      background: var(--notice);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+    }
+
+    nav {
+      margin: 32px 0;
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    nav h2 {
+      margin-top: 0;
+      border: 0;
+      padding: 0;
+    }
+
+    nav ul {
+      columns: 2;
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 680px) {
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 28px 20px;
+        border: 0;
+        border-radius: 0;
+      }
+
+      nav ul {
+        columns: 1;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Privacy Policy</h1>
-    <p>This Privacy Policy applies to the Rallyo mobile application.</p>
-    <p>The full Privacy Policy will be published here.</p>
+  <main>
+    <header>
+      <h1>Rallyo Privacy Policy</h1>
+
+      <p class="meta">
+        Effective date: July 10, 2026<br>
+        Last updated: July 10, 2026
+      </p>
+
+      <p>
+        This Privacy Policy explains how Rallyo (“Rallyo,” “we,” “us,” or
+        “our”) collects, uses, stores, and shares information when you use
+        the Rallyo mobile application.
+      </p>
+
+      <div class="notice">
+        <strong>Important location notice:</strong>
+        Rallyo is a group-based live location-sharing application. When you
+        participate in an active group map session, your precise location may
+        be transmitted to Rallyo's backend services and displayed to authorized
+        members of your group. Location processing may continue when the app is
+        minimized or running in the background.
+      </div>
+    </header>
+
+    <nav aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#information">Information we collect</a></li>
+        <li><a href="#location">Live location sharing</a></li>
+        <li><a href="#background">Background location</a></li>
+        <li><a href="#history">Location history</a></li>
+        <li><a href="#groups">Groups and social features</a></li>
+        <li><a href="#chat">Chats, targets, and pings</a></li>
+        <li><a href="#services">Third-party services</a></li>
+        <li><a href="#use">How information is used</a></li>
+        <li><a href="#sharing">How information is shared</a></li>
+        <li><a href="#retention">Data retention</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#choices">Your choices</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#future">Future advertising and purchases</a></li>
+        <li><a href="#changes">Policy changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="information">
+      <h2>1. Information We Collect</h2>
+
+      <h3>Account and profile information</h3>
+      <p>
+        When you create or use a Rallyo account, we may process information
+        such as your user identifier, email address, username, profile name,
+        biography, profile image, authentication status, group memberships,
+        roles, and account settings.
+      </p>
+
+      <h3>Precise location information</h3>
+      <p>
+        Rallyo processes precise geographic location information, including
+        latitude, longitude, direction of travel, update time, sharing status,
+        and whether the application is active, in the background, or offline.
+      </p>
+
+      <h3>User-generated content</h3>
+      <p>
+        We process content that you create or submit through Rallyo, including
+        group messages, map targets, action pings, responses, group details,
+        profile images, and group images.
+      </p>
+
+      <h3>Device and notification information</h3>
+      <p>
+        Rallyo may process device notification tokens and related technical
+        identifiers to deliver push notifications and maintain application
+        functionality.
+      </p>
+
+      <h3>Local application data</h3>
+      <p>
+        Rallyo may store application preferences, session-related settings,
+        selected map settings, and cached images locally on your device.
+      </p>
+    </section>
+
+    <section id="location">
+      <h2>2. Live Location Sharing</h2>
+
+      <p>
+        Rallyo's primary function is to allow users in the same group to view
+        one another's live locations on a map.
+      </p>
+
+      <p>
+        When live location sharing is active, Rallyo may send your precise
+        location to Firebase Realtime Database. Your live location may then be
+        displayed to authorized members of the group in which you are
+        participating.
+      </p>
+
+      <p>
+        Live location records may include:
+      </p>
+
+      <ul>
+        <li>your Rallyo user identifier;</li>
+        <li>latitude and longitude;</li>
+        <li>direction or heading;</li>
+        <li>the time of the latest update;</li>
+        <li>your location-sharing status; and</li>
+        <li>the current application state.</li>
+      </ul>
+
+      <p>
+        Live location information is used only to provide Rallyo's group map,
+        navigation, coordination, safety, target, and location-sharing
+        functions. Rallyo does not currently use precise location information
+        for advertising.
+      </p>
+    </section>
+
+    <section id="background">
+      <h2>3. Background Location</h2>
+
+      <p>
+        If you start or participate in an active group map session, Rallyo may
+        continue processing your location after the application is minimized
+        or is no longer visible on the screen.
+      </p>
+
+      <p>
+        On Android devices, Rallyo uses a foreground location service for this
+        purpose. An ongoing system notification is displayed while that service
+        is active.
+      </p>
+
+      <p>
+        Rallyo may reduce the frequency at which location updates are sent or
+        stored while the application is in the background. However, location
+        processing may continue so that members of your active group can still
+        view your current position.
+      </p>
+
+      <p>
+        Location sharing is expected to stop when the active tracking session
+        ends, the relevant map session is closed, the required permissions are
+        withdrawn, or the operating system terminates the tracking process.
+        Device and operating-system behavior may affect exactly when a
+        background process stops.
+      </p>
+    </section>
+
+    <section id="history">
+      <h2>4. Optional Location History</h2>
+
+      <p>
+        Location history is disabled by default. A user may voluntarily enable
+        it from the relevant Group Info settings.
+      </p>
+
+      <p>
+        When location history is enabled, Rallyo stores selected precise
+        location points so that the user can review recent movement history on
+        the map.
+      </p>
+
+      <p>
+        Stored location-history records may contain latitude, longitude, and
+        timestamps. Rallyo is designed to retain these records for up to seven
+        days. A scheduled backend process is used to remove records older than
+        the retention period.
+      </p>
+
+      <p>
+        Turning off location history prevents new historical points from being
+        recorded. It may not immediately remove location-history records that
+        were already stored.
+      </p>
+
+      <p>
+        Rallyo does not currently provide a separate in-app control for
+        manually deleting individual location-history records before the
+        automatic retention period ends.
+      </p>
+    </section>
+
+    <section id="groups">
+      <h2>5. Groups and Social Features</h2>
+
+      <p>
+        Rallyo processes information about groups, group administrators,
+        supervisors, members, friendships, invitations, and participation
+        status to operate its group-based features.
+      </p>
+
+      <p>
+        Information displayed inside a group may include usernames, profile
+        images, online status, live location, targets, action pings, and
+        messages.
+      </p>
+
+      <p>
+        You should join groups only with people you trust. Group members may be
+        able to view information that you share within that group.
+      </p>
+    </section>
+
+    <section id="chat">
+      <h2>6. Chats, Targets, and Action Pings</h2>
+
+      <p>
+        Rallyo allows users to communicate while using the group map. Messages
+        and related metadata may be stored in Firebase Realtime Database.
+      </p>
+
+      <p>
+        Users may also create targets or action pings on the map. These records
+        may include the creator's user identifier, geographic coordinates,
+        assigned users, responders, completion status, timestamps, and related
+        instructions.
+      </p>
+
+      <p>
+        This information is processed to coordinate group activity, provide
+        navigation, and show group members relevant map events.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>7. Third-Party Services</h2>
+
+      <p>
+        Rallyo uses service providers that process information on our behalf or
+        provide essential application functionality.
+      </p>
+
+      <h3>Google Firebase</h3>
+      <p>
+        Rallyo may use Firebase Authentication, Cloud Firestore, Firebase
+        Realtime Database, Cloud Storage for Firebase, Firebase Cloud Messaging,
+        and Cloud Functions for Firebase.
+      </p>
+
+      <p>
+        These services may process account information, user identifiers,
+        precise location, messages, group data, notification tokens, uploaded
+        images, and related technical data.
+      </p>
+
+      <h3>Google Maps Platform</h3>
+      <p>
+        Rallyo uses Google Maps services to display maps, locations, targets,
+        routes, and group activity. Google may process technical or map-related
+        information in accordance with its own privacy terms.
+      </p>
+
+      <h3>Device operating-system services</h3>
+      <p>
+        Rallyo relies on Android and iOS location, notification, networking, and
+        background-processing services. Your device settings and permissions
+        determine whether these services are available.
+      </p>
+    </section>
+
+    <section id="use">
+      <h2>8. How We Use Information</h2>
+
+      <p>We use information to:</p>
+
+      <ul>
+        <li>create and manage Rallyo accounts;</li>
+        <li>provide live and background group location sharing;</li>
+        <li>display optional location history;</li>
+        <li>operate group chat, target, ping, and navigation features;</li>
+        <li>deliver service and activity notifications;</li>
+        <li>maintain account, group, and membership functionality;</li>
+        <li>protect the reliability and security of the service;</li>
+        <li>detect and resolve technical issues; and</li>
+        <li>comply with legal obligations.</li>
+      </ul>
+    </section>
+
+    <section id="sharing">
+      <h2>9. How Information Is Shared</h2>
+
+      <h3>With group members</h3>
+      <p>
+        Live location, profile details, messages, targets, pings, and other
+        group-related content may be displayed to members of the relevant
+        Rallyo group.
+      </p>
+
+      <h3>With service providers</h3>
+      <p>
+        Information may be processed by Google Firebase, Google Maps Platform,
+        hosting providers, and device-platform services to operate Rallyo.
+      </p>
+
+      <h3>For legal and safety reasons</h3>
+      <p>
+        We may disclose information when reasonably necessary to comply with
+        applicable law, enforce legal rights, respond to lawful requests, or
+        protect users and the public from fraud, abuse, or safety threats.
+      </p>
+
+      <p>
+        We do not currently sell personal information.
+      </p>
+    </section>
+
+    <section id="retention">
+      <h2>10. Data Retention</h2>
+
+      <p>
+        Different types of information are retained for different periods
+        depending on the purpose for which they are processed.
+      </p>
+
+      <ul>
+        <li>
+          Location-history records are designed to be retained for up to seven
+          days.
+        </li>
+        <li>
+          Live location records may remain stored as the latest known location
+          until they are overwritten or removed.
+        </li>
+        <li>
+          Account information, group records, messages, targets, pings, and
+          uploaded images may be retained while the account or related service
+          data remains active.
+        </li>
+        <li>
+          Notification tokens may be retained until replaced, invalidated, or
+          removed.
+        </li>
+        <li>
+          Local preferences and cached files may remain on the device until the
+          application data is cleared or the application is uninstalled.
+        </li>
+      </ul>
+
+      <p>
+        Rallyo is being updated to provide additional account and data-deletion
+        controls. Until those controls are available, users may contact us to
+        ask questions about deletion of their information.
+      </p>
+    </section>
+
+    <section id="security">
+      <h2>11. Security</h2>
+
+      <p>
+        We use technical and organizational safeguards intended to protect
+        information against unauthorized access, loss, misuse, or alteration.
+        Information transmitted between Rallyo and Firebase services is
+        generally protected using encrypted network connections.
+      </p>
+
+      <p>
+        No application, network, database, or storage system can be guaranteed
+        to be completely secure. Users should protect their account credentials
+        and should not share sensitive information with groups they do not
+        trust.
+      </p>
+    </section>
+
+    <section id="choices">
+      <h2>12. Your Choices and Controls</h2>
+
+      <p>You may:</p>
+
+      <ul>
+        <li>grant or deny device location permissions;</li>
+        <li>disable location permissions from device settings;</li>
+        <li>enable or disable optional location history;</li>
+        <li>leave groups or stop participating in map sessions;</li>
+        <li>change permitted profile information;</li>
+        <li>control notification permissions through device settings; and</li>
+        <li>contact us regarding access, correction, or deletion requests.</li>
+      </ul>
+
+      <p>
+        Disabling a permission may prevent related Rallyo features from
+        functioning correctly.
+      </p>
+
+      <p>
+        Rallyo does not currently include a complete in-app account deletion
+        process. This functionality is planned for a future release. Account or
+        data-related questions may be sent to the contact address below.
+      </p>
+    </section>
+
+    <section id="children">
+      <h2>13. Children's Privacy</h2>
+
+      <p>
+        Rallyo is not directed to children under the minimum age required to
+        consent to data processing in their jurisdiction. We do not knowingly
+        seek to collect personal information from children in violation of
+        applicable law.
+      </p>
+
+      <p>
+        A parent or guardian who believes that a child has provided personal
+        information without appropriate authorization may contact us.
+      </p>
+    </section>
+
+    <section id="future">
+      <h2>14. Future Advertising and In-App Purchases</h2>
+
+      <p>
+        Rallyo is currently provided without advertising and without paid
+        subscriptions.
+      </p>
+
+      <p>
+        Future versions may introduce advertising, subscriptions, or in-app
+        purchases, including an option to remove advertising. Before such
+        features are introduced, this Privacy Policy and the application's
+        Google Play Data Safety disclosures will be updated to describe any
+        additional information processing.
+      </p>
+
+      <p>
+        Precise location will not be used solely for advertising or analytics.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>15. Changes to This Privacy Policy</h2>
+
+      <p>
+        We may update this Privacy Policy when Rallyo's features, service
+        providers, legal obligations, or information-handling practices change.
+      </p>
+
+      <p>
+        The updated version will be published on this page with a revised
+        “Last updated” date. Material changes may also be communicated within
+        the application where appropriate.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>16. Contact</h2>
+
+      <p>
+        For questions, privacy requests, or concerns regarding Rallyo, contact:
+      </p>
+
+      <p>
+        <strong>Developer:</strong> Mehmet Kayaaslan<br>
+        <strong>Email:</strong>
+        <a href="mailto:mehmetkayaaslan@outlook.com">
+          mehmetkayaaslan@outlook.com
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Rallyo — Privacy Policy<br>
+        Package name: com.mkayaaslan.rallyo
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
