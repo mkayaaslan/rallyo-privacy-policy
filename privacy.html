@@ -164,7 +164,7 @@
 
       <p class="meta">
         Effective date: July 10, 2026<br>
-        Last updated: August 11, 2026
+        Last updated: August 24, 2026
       </p>
 
       <p>
@@ -224,6 +224,16 @@
         and whether the application is active, in the background, or offline.
       </p>
 
+      <h3>Motion and activity information</h3>
+      <p>
+        To help manage battery usage while you are sharing your location,
+        Marilo may process on-device motion and activity information, such as
+        whether you appear to be stationary, walking, cycling, or travelling
+        in a vehicle. Only the resulting activity state is processed for this
+        purpose — Marilo does not process or store raw accelerometer,
+        gyroscope, or other raw sensor data.
+      </p>
+
       <h3>User-generated content</h3>
       <p>
         We process content that you create or submit through Marilo, including
@@ -281,8 +291,10 @@
         <li>latitude and longitude;</li>
         <li>direction or heading;</li>
         <li>the time of the latest update;</li>
-        <li>your location-sharing status; and</li>
-        <li>the current application state.</li>
+        <li>your location-sharing status;</li>
+        <li>the current application state; and</li>
+        <li>your current motion or activity status (for example, stationary,
+            walking, or in a vehicle).</li>
       </ul>
 
       <p>
@@ -313,6 +325,14 @@
         stored while the application is in the background. However, location
         processing may continue so that members of your active group can still
         view your current position.
+      </p>
+
+      <p>
+        Marilo may use the motion and activity information described in
+        section 1 to help determine how frequently location updates are sent
+        while the application is in the background — for example, sending
+        updates less often while you appear to be stationary, and more often
+        while you appear to be moving or approaching a shared destination.
       </p>
 
       <p>
@@ -468,6 +488,7 @@
       <ul>
         <li>create and manage Marilo accounts;</li>
         <li>provide live and background group location sharing;</li>
+        <li>manage battery usage while location sharing is active;</li>
         <li>display optional location history;</li>
         <li>operate group chat, target, ping, and navigation features;</li>
         <li>deliver service and activity notifications in your chosen language;</li>
@@ -486,9 +507,9 @@
 
       <h3>With group members</h3>
       <p>
-        Live location, profile details, messages, targets, pings, and other
-        group-related content may be displayed to members of the relevant
-        Marilo group.
+        Live location, motion/activity status, profile details, messages,
+        targets, pings, and other group-related content may be displayed to
+        members of the relevant Marilo group.
       </p>
 
       <h3>With service providers</h3>
@@ -574,6 +595,10 @@
       <ul>
         <li>grant or deny device location permissions;</li>
         <li>disable location permissions from device settings;</li>
+        <li>grant or deny the optional motion and activity permission, from
+            within the app or from device settings — declining it does not
+            prevent you from using Marilo, and location sharing continues
+            without it;</li>
         <li>enable or disable optional location history;</li>
         <li>leave groups or stop participating in map sessions;</li>
         <li>change permitted profile information;</li>
