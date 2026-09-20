@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Marilo Privacy Policy</title>
-  <meta
-    name="description"
-    content="Privacy Policy for the Marilo mobile application."
-  >
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marilo Terms of Service</title>
   <style>
     :root {
       color-scheme: light dark;
@@ -21,7 +15,6 @@
       --accent: #1769e0;
       --notice: #eef4ff;
     }
-
     @media (prefers-color-scheme: dark) {
       :root {
         --background: #111315;
@@ -33,30 +26,15 @@
         --notice: #17243a;
       }
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
       background: var(--background);
       color: var(--text);
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.7;
     }
-
     main {
       width: min(920px, calc(100% - 32px));
       margin: 40px auto;
@@ -65,40 +43,16 @@
       border: 1px solid var(--border);
       border-radius: 16px;
     }
-
-    h1,
-    h2,
-    h3 {
-      line-height: 1.3;
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: 2.25rem;
-    }
-
+    h1, h2, h3 { line-height: 1.3; }
+    h1 { margin-top: 0; font-size: 2.25rem; }
     h2 {
       margin-top: 42px;
       padding-bottom: 10px;
       border-bottom: 1px solid var(--border);
       font-size: 1.45rem;
     }
-
-    h3 {
-      margin-top: 26px;
-      font-size: 1.1rem;
-    }
-
-    p,
-    li {
-      color: var(--text);
-    }
-
-    .meta,
-    .muted {
-      color: var(--muted);
-    }
-
+    h3 { margin-top: 26px; font-size: 1.1rem; }
+    .meta, .muted, footer { color: var(--muted); }
     .notice {
       margin: 28px 0;
       padding: 18px;
@@ -106,37 +60,21 @@
       border-left: 4px solid var(--accent);
       border-radius: 8px;
     }
-
     nav {
       margin: 32px 0;
       padding: 22px;
       border: 1px solid var(--border);
       border-radius: 12px;
     }
-
-    nav h2 {
-      margin-top: 0;
-      border: 0;
-      padding: 0;
-    }
-
-    nav ul {
-      columns: 2;
-      padding-left: 22px;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
+    nav h2 { margin-top: 0; border: 0; padding: 0; }
+    nav ul { columns: 2; padding-left: 22px; }
+    a { color: var(--accent); }
     footer {
       margin-top: 48px;
       padding-top: 22px;
       border-top: 1px solid var(--border);
-      color: var(--muted);
       font-size: 0.95rem;
     }
-
     @media (max-width: 680px) {
       main {
         width: 100%;
@@ -145,594 +83,267 @@
         border: 0;
         border-radius: 0;
       }
-
-      nav ul {
-        columns: 1;
-      }
-
-      h1 {
-        font-size: 1.85rem;
-      }
+      nav ul { columns: 1; }
+      h1 { font-size: 1.85rem; }
     }
   </style>
 </head>
-
 <body>
   <main>
-    <header>
-      <h1>Marilo Privacy Policy</h1>
+    <h1>Marilo Terms of Service</h1>
+    <p class="meta">
+      Effective date: July 22, 2026<br />
+      Last updated: September 20, 2026
+    </p>
 
-      <p class="meta">
-        Effective date: July 10, 2026<br>
-        Last updated: August 24, 2026
-      </p>
+    <p>
+      These Terms of Service (“Terms”) govern your access to and use of the
+      Marilo mobile application (“Marilo,” “the App,” “we,” “us,” or “our”),
+      operated by Mehmet Kayaaslan. By creating an account or using Marilo,
+      you agree to these Terms and our
+      <a href="privacy.html">Privacy Policy</a>.
+    </p>
 
-      <p>
-        This Privacy Policy explains how Marilo (“Marilo,” “we,” “us,” or
-        “our”) collects, uses, stores, and shares information when you use
-        the Marilo mobile application.
-      </p>
+    <div class="notice">
+      <strong>Important:</strong>
+      Marilo is a group-based live location-sharing application. When you join
+      a group and participate in an active map session, other authorized group
+      members may see your precise location, including while the App is in the
+      background (subject to your device permissions and settings).
+    </div>
 
-      <div class="notice">
-        <strong>Important location notice:</strong>
-        Marilo is a group-based live location-sharing application. When you
-        participate in an active group map session, your precise location may
-        be transmitted to Marilo's backend services and displayed to authorized
-        members of your group. Location processing may continue when the app is
-        minimized or running in the background.
-      </div>
-    </header>
-
-    <nav aria-label="Table of contents">
+    <nav>
       <h2>Contents</h2>
       <ul>
-        <li><a href="#information">Information we collect</a></li>
-        <li><a href="#location">Live location sharing</a></li>
-        <li><a href="#background">Background location</a></li>
-        <li><a href="#history">Location history</a></li>
-        <li><a href="#groups">Groups and social features</a></li>
-        <li><a href="#chat">Chats, targets, and pings</a></li>
-        <li><a href="#services">Third-party services</a></li>
-        <li><a href="#use">How information is used</a></li>
-        <li><a href="#sharing">How information is shared</a></li>
-        <li><a href="#retention">Data retention</a></li>
-        <li><a href="#security">Security</a></li>
-        <li><a href="#choices">Your choices</a></li>
-        <li><a href="#deletion">Account deletion</a></li>
-        <li><a href="#children">Children's privacy</a></li>
-        <li><a href="#ads">Advertising and purchases</a></li>
-        <li><a href="#changes">Policy changes</a></li>
+        <li><a href="#eligibility">Eligibility</a></li>
+        <li><a href="#account">Account</a></li>
+        <li><a href="#service">The Service</a></li>
+        <li><a href="#location">Location features</a></li>
+        <li><a href="#conduct">Acceptable use</a></li>
+        <li><a href="#subscription">Subscriptions and payments</a></li>
+        <li><a href="#ads">Advertising</a></li>
+        <li><a href="#content">User content, reporting and blocking</a></li>
+        <li><a href="#third-parties">Third-party services</a></li>
+        <li><a href="#disclaimer">Disclaimer</a></li>
+        <li><a href="#liability">Limitation of liability</a></li>
+        <li><a href="#termination">Termination</a></li>
+        <li><a href="#changes">Changes</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <section id="information">
-      <h2>1. Information We Collect</h2>
-
-      <h3>Account and profile information</h3>
-      <p>
-        When you create or use a Marilo account, we may process information
-        such as your user identifier, email address, username, profile name,
-        biography, profile image, authentication status, group memberships,
-        roles, and account settings.
-      </p>
-
-      <h3>Precise location information</h3>
-      <p>
-        Marilo processes precise geographic location information, including
-        latitude, longitude, direction of travel, update time, sharing status,
-        and whether the application is active, in the background, or offline.
-      </p>
-
-      <h3>Motion and activity information</h3>
-      <p>
-        To help manage battery usage while you are sharing your location,
-        Marilo may process on-device motion and activity information, such as
-        whether you appear to be stationary, walking, cycling, or travelling
-        in a vehicle. Only the resulting activity state is processed for this
-        purpose — Marilo does not process or store raw accelerometer,
-        gyroscope, or other raw sensor data.
-      </p>
-
-      <h3>User-generated content</h3>
-      <p>
-        We process content that you create or submit through Marilo, including
-        group messages, map targets, action pings, responses, group details,
-        profile images, and group images.
-      </p>
-
-      <h3>Device and notification information</h3>
-      <p>
-        Marilo may process device notification tokens and related technical
-        identifiers to deliver push notifications and maintain application
-        functionality.
-      </p>
-
-      <h3>Language preference</h3>
-      <p>
-        Marilo stores the display language you select so that notifications
-        sent from our backend can be delivered in that language.
-      </p>
-
-      <h3>Purchase and subscription information</h3>
-      <p>
-        If you purchase an optional subscription, we process a subscription
-        status linked to your user identifier, together with related purchase
-        events. Payment card details are handled by Google Play and are not
-        collected by Marilo.
-      </p>
-
-      <h3>Local application data</h3>
-      <p>
-        Marilo may store application preferences, session-related settings,
-        selected map settings, and cached images locally on your device.
-      </p>
-    </section>
-
-    <section id="location">
-      <h2>2. Live Location Sharing</h2>
-
-      <p>
-        Marilo's primary function is to allow users in the same group to view
-        one another's live locations on a map.
-      </p>
-
-      <p>
-        When live location sharing is active, Marilo may send your precise
-        location to Firebase Realtime Database. Your live location may then be
-        displayed to authorized members of the group in which you are
-        participating.
-      </p>
-
-      <p>Live location records may include:</p>
-
-      <ul>
-        <li>your Marilo user identifier;</li>
-        <li>latitude and longitude;</li>
-        <li>direction or heading;</li>
-        <li>the time of the latest update;</li>
-        <li>your location-sharing status;</li>
-        <li>the current application state; and</li>
-        <li>your current motion or activity status (for example, stationary,
-            walking, or in a vehicle).</li>
-      </ul>
-
-      <p>
-        Live location information is used to provide Marilo's group map,
-        navigation, coordination, safety, target, and location-sharing
-        functions. Precise location collected for these features is not used
-        to target advertising and is not shared with advertising partners.
-      </p>
-    </section>
-
-    <section id="background">
-      <h2>3. Background Location</h2>
-
-      <p>
-        If you start or participate in an active group map session, Marilo may
-        continue processing your location after the application is minimized
-        or is no longer visible on the screen.
-      </p>
-
-      <p>
-        On Android devices, Marilo uses a foreground location service for this
-        purpose. An ongoing system notification is displayed while that service
-        is active.
-      </p>
-
-      <p>
-        Marilo may reduce the frequency at which location updates are sent or
-        stored while the application is in the background. However, location
-        processing may continue so that members of your active group can still
-        view your current position.
-      </p>
-
-      <p>
-        Marilo may use the motion and activity information described in
-        section 1 to help determine how frequently location updates are sent
-        while the application is in the background — for example, sending
-        updates less often while you appear to be stationary, and more often
-        while you appear to be moving or approaching a shared destination.
-      </p>
-
-      <p>
-        Under normal operating conditions, location sharing is intended to stop
-        when the active tracking session ends, the relevant map session is
-        closed, the required permissions are withdrawn, or the operating system
-        terminates the tracking process. Device and operating-system behavior
-        may affect exactly when a background process stops.
-      </p>
-    </section>
-
-    <section id="history">
-      <h2>4. Optional Location History</h2>
-
-      <p>
-        Location history is disabled by default. A user may voluntarily enable
-        it from the relevant Group Info settings.
-      </p>
-
-      <p>
-        When location history is enabled, Marilo stores selected precise
-        location points so that the user can review recent movement history on
-        the map.
-      </p>
-
-      <p>
-        Stored location-history records may contain latitude, longitude, and
-        timestamps. Marilo is designed to retain these records for up to seven
-        days. A scheduled backend process is used to remove records older than
-        the retention period.
-      </p>
-
-      <p>
-        Turning off location history prevents new historical points from being
-        recorded. It may not immediately remove location-history records that
-        were already stored.
-      </p>
-
-      <p>
-        Marilo does not currently provide a separate in-app control for
-        manually deleting individual location-history records before the
-        automatic retention period ends. Deleting your account removes
-        location-history records associated with it.
-      </p>
-    </section>
-
-    <section id="groups">
-      <h2>5. Groups and Social Features</h2>
-
-      <p>
-        Marilo processes information about groups, group administrators,
-        supervisors, members, friendships, invitations, and participation
-        status to operate its group-based features.
-      </p>
-
-      <p>
-        Information displayed inside a group may include usernames, profile
-        images, online status, live location, targets, action pings, and
-        messages.
-      </p>
-
-      <p>
-        You should join groups only with people you trust. Group members may be
-        able to view information that you share within that group.
-      </p>
-    </section>
-
-    <section id="chat">
-      <h2>6. Chats, Targets, and Action Pings</h2>
-
-      <p>
-        Marilo allows users to communicate while using the group map. Messages
-        and related metadata may be stored in Firebase Realtime Database.
-      </p>
-
-      <p>
-        Users may also create targets or action pings on the map. These records
-        may include the creator's user identifier, geographic coordinates,
-        assigned users, responders, completion status, timestamps, and related
-        instructions.
-      </p>
-
-      <p>
-        This information is processed to coordinate group activity, provide
-        navigation, and show group members relevant map events.
-      </p>
-
-      <p>
-        Messages and map events are not end-to-end encrypted. They are
-        transmitted over encrypted connections and are processed by our backend
-        services in order to deliver them and to generate the related
-        notifications.
-      </p>
-    </section>
-
-    <section id="services">
-      <h2>7. Third-Party Services</h2>
-
-      <p>
-        Marilo uses service providers that process information on our behalf or
-        provide essential application functionality.
-      </p>
-
-      <h3>Google Firebase</h3>
-      <p>
-        Marilo may use Firebase Authentication, Cloud Firestore, Firebase
-        Realtime Database, Cloud Storage for Firebase, Firebase Cloud Messaging,
-        Firebase Remote Config, and Cloud Functions for Firebase.
-      </p>
-
-      <p>
-        These services may process account information, user identifiers,
-        precise location, messages, group data, notification tokens, uploaded
-        images, and related technical data.
-      </p>
-
-      <h3>Google Maps Platform</h3>
-      <p>
-        Marilo uses Google Maps services to display maps, locations, targets,
-        routes, and group activity. Google may process technical or map-related
-        information in accordance with its own privacy terms.
-      </p>
-
-      <h3>Google AdMob</h3>
-      <p>
-        Marilo includes the Google AdMob advertising framework. When
-        advertising is enabled, AdMob may process advertising identifiers and
-        technical device information in order to deliver and measure ads, in
-        accordance with Google's own privacy terms. See section 15 for details.
-      </p>
-
-      <h3>RevenueCat</h3>
-      <p>
-        Subscription status is managed using RevenueCat. RevenueCat processes
-        your user identifier and purchase events in order to determine whether
-        a subscription is active. Payment card details are handled by Google
-        Play and are not passed to RevenueCat by Marilo.
-      </p>
-
-      <h3>Device operating-system services</h3>
-      <p>
-        Marilo relies on Android and iOS location, notification, networking, and
-        background-processing services. Your device settings and permissions
-        determine whether these services are available.
-      </p>
-    </section>
-
-    <section id="use">
-      <h2>8. How We Use Information</h2>
-
-      <p>We use information to:</p>
-
-      <ul>
-        <li>create and manage Marilo accounts;</li>
-        <li>provide live and background group location sharing;</li>
-        <li>manage battery usage while location sharing is active;</li>
-        <li>display optional location history;</li>
-        <li>operate group chat, target, ping, and navigation features;</li>
-        <li>deliver service and activity notifications in your chosen language;</li>
-        <li>maintain account, group, and membership functionality;</li>
-        <li>determine whether an optional subscription is active and apply the
-            corresponding feature limits;</li>
-        <li>display advertising where it is enabled;</li>
-        <li>protect the reliability and security of the service;</li>
-        <li>detect and resolve technical issues; and</li>
-        <li>comply with legal obligations.</li>
-      </ul>
-    </section>
-
-    <section id="sharing">
-      <h2>9. How Information Is Shared</h2>
-
-      <h3>With group members</h3>
-      <p>
-        Live location, motion/activity status, profile details, messages,
-        targets, pings, and other group-related content may be displayed to
-        members of the relevant Marilo group.
-      </p>
-
-      <h3>With service providers</h3>
-      <p>
-        Information may be processed by Google Firebase, Google Maps Platform,
-        Google AdMob, RevenueCat, hosting providers, and device-platform
-        services to operate Marilo.
-      </p>
-
-      <h3>For legal and safety reasons</h3>
-      <p>
-        We may disclose information when reasonably necessary to comply with
-        applicable law, enforce legal rights, respond to lawful requests, or
-        protect users and the public from fraud, abuse, or safety threats.
-      </p>
-
-      <p>
-        We do not sell personal information.
-      </p>
-    </section>
-
-    <section id="retention">
-      <h2>10. Data Retention</h2>
-
-      <p>
-        Different categories of data may have different retention periods
-        depending on operational, legal, security, and service requirements.
-      </p>
-
-      <ul>
-        <li>
-          Location-history records are designed to be retained for up to seven
-          days.
-        </li>
-        <li>
-          Live location records may remain stored as the latest known location
-          until they are overwritten or removed.
-        </li>
-        <li>
-          Account information, group records, messages, targets, pings, and
-          uploaded images may be retained while the account or related service
-          data remains active.
-        </li>
-        <li>
-          Notification tokens may be retained until replaced, invalidated, or
-          removed.
-        </li>
-        <li>
-          Local preferences and cached files may remain on the device until the
-          application data is cleared or the application is uninstalled.
-        </li>
-      </ul>
-
-      <p>
-        You can delete your account and its associated data at any time — see
-        section 13.
-      </p>
-    </section>
-
-    <section id="security">
-      <h2>11. Security</h2>
-
-      <p>
-        We use technical and organizational safeguards intended to protect
-        information against unauthorized access, loss, misuse, or alteration.
-        Information transmitted between Marilo and our backend services is
-        protected using encrypted network connections.
-      </p>
-
-      <p>
-        No application, network, database, or storage system can be guaranteed
-        to be completely secure. Users should protect their account credentials
-        and should not share sensitive information with groups they do not
-        trust.
-      </p>
-    </section>
-
-    <section id="choices">
-      <h2>12. Your Choices and Controls</h2>
-
-      <p>You may:</p>
-
-      <ul>
-        <li>grant or deny device location permissions;</li>
-        <li>disable location permissions from device settings;</li>
-        <li>grant or deny the optional motion and activity permission, from
-            within the app or from device settings — declining it does not
-            prevent you from using Marilo, and location sharing continues
-            without it;</li>
-        <li>enable or disable optional location history;</li>
-        <li>leave groups or stop participating in map sessions;</li>
-        <li>change permitted profile information;</li>
-        <li>change the application display language;</li>
-        <li>control notification permissions through device settings;</li>
-        <li>delete your account from within the application; and</li>
-        <li>contact us regarding access, correction, or deletion requests.</li>
-      </ul>
-
-      <p>
-        Disabling a permission may prevent related Marilo features from
-        functioning correctly.
-      </p>
-    </section>
-
-    <section id="deletion">
-      <h2>13. Account Deletion</h2>
-
-      <p>
-        You can delete your Marilo account yourself, from inside the
-        application: open your <strong>Profile</strong> tab, choose
-        <strong>Delete Account</strong>, confirm, and enter your password to
-        verify that you are the account owner.
-      </p>
-
-      <p>
-        Deleting your account removes or anonymizes account-related data under
-        our control, including profile information, notification tokens, group
-        membership records, live-location records, stored location-history
-        records, and friendship records. Some information may be retained where
-        required for security, legal compliance, or the integrity of shared
-        group activity.
-      </p>
-
-      <div class="notice">
-        <strong>Subscriptions are billed by Google Play.</strong>
-        Deleting your Marilo account does not cancel an active subscription.
-        Cancel it in the Play Store under <em>Payments &amp; subscriptions</em>
-        before deleting your account, or billing may continue.
-      </div>
-
-      <p>
-        If you cannot sign in, see the
-        <a href="delete-account.html">account deletion request page</a> for the
-        email-based alternative.
-      </p>
-    </section>
-
-    <section id="children">
-      <h2>14. Children's Privacy</h2>
-
-      <p>
-        Marilo is not directed to children under the minimum age required to
-        consent to data processing in their jurisdiction. We do not knowingly
-        seek to collect personal information from children in violation of
-        applicable law.
-      </p>
-
-      <p>
-        A parent or guardian who believes that a child has provided personal
-        information without appropriate authorization may contact us.
-      </p>
-    </section>
-
-    <section id="ads">
-      <h2>15. Advertising and In-App Purchases</h2>
-
-      <h3>Optional subscription</h3>
-      <p>
-        Marilo is free to use. An optional subscription raises the limits that
-        apply to groups, members, destinations, and daily action pings.
-        Subscriptions are sold and billed by Google Play. Subscription status is
-        managed through RevenueCat, which receives your user identifier and
-        purchase events. Marilo does not receive or store your payment card
-        details.
-      </p>
-
-      <h3>Advertising</h3>
-      <p>
-        Marilo includes the Google AdMob framework so that advertising can be
-        shown to users who do not have an active subscription. Where advertising
-        is enabled, AdMob may process advertising identifiers and technical
-        device information to deliver and measure ads, in accordance with
-        Google's privacy terms.
-      </p>
-
-      <p>
-        The precise location that Marilo collects for its group features is not
-        used to target advertising and is not shared with advertising partners.
-      </p>
-
-      <p>
-        Advertising and subscription availability may be enabled or disabled
-        remotely and may not be active in every version or region.
-      </p>
-    </section>
-
-    <section id="changes">
-      <h2>16. Changes to This Privacy Policy</h2>
-
-      <p>
-        We may update this Privacy Policy when Marilo's features, service
-        providers, legal obligations, or information-handling practices change.
-      </p>
-
-      <p>
-        The updated version will be published on this page with a revised
-        “Last updated” date. Material changes may also be communicated within
-        the application where appropriate.
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>17. Contact</h2>
-
-      <p>
-        For questions, privacy requests, or concerns regarding Marilo, contact:
-      </p>
-
-      <p>
-        <strong>Application:</strong> Marilo<br>
-        <strong>Developer:</strong> Mehmet Kayaaslan<br>
-        <strong>Email:</strong>
-        <a href="mailto:mehmetkayaaslan@outlook.com">
-          mehmetkayaaslan@outlook.com
-        </a>
-      </p>
-    </section>
+    <h2 id="eligibility">1. Eligibility</h2>
+    <p>
+      You must be at least the minimum age required to consent to online
+      services in your jurisdiction, and you must have the legal capacity to
+      enter into these Terms. If you use Marilo on behalf of another person
+      (for example, a dependent), you are responsible for that use.
+    </p>
+
+    <h2 id="account">2. Account</h2>
+    <p>
+      You must provide accurate registration information and keep your login
+      credentials secure. You are responsible for activity that occurs under
+      your account. You may delete your account using the in-app account
+      deletion flow or by contacting us.
+    </p>
+
+    <h2 id="service">3. The Service</h2>
+    <p>Marilo provides tools for groups to:</p>
+    <ul>
+      <li>share live location on a map;</li>
+      <li>chat and send action pings (including SOS-style alerts);</li>
+      <li>create map targets and optional sequential routes;</li>
+      <li>optionally record personal location history; and</li>
+      <li>manage friends and group memberships.</li>
+    </ul>
+    <p>
+      Features may differ between Free and paid “Marilo Pro” plans, and some
+      features may be limited by fair-use or safety quotas. We may enable,
+      disable, or change features (including paid features and ads) by updating
+      the App or remote configuration.
+    </p>
+
+    <h2 id="location">4. Location Features</h2>
+    <p>
+      Live location sharing is central to Marilo. By starting or joining an
+      active map session with location permission granted, you instruct Marilo
+      to process and share your precise location with authorized members of
+      that group.
+    </p>
+    <p>
+      Optional location history, when enabled by you, stores your own trail for
+      a limited retention period (currently designed for up to seven days) so
+      you can review it. Location history is intended for your own use within
+      the App and is not a guarantee of continuous recording in all device
+      conditions.
+    </p>
+    <p>
+      You should only join groups with people you trust. Misuse of location
+      features (including stalking, harassment, or sharing another person’s
+      location without lawful authority) is prohibited.
+    </p>
+
+    <h2 id="conduct">5. Acceptable Use</h2>
+    <p>
+      Marilo has <strong>zero tolerance for objectionable content or abusive
+      users</strong>. Content that breaks the rules below is removed, and the
+      accounts behind it are removed with it.
+    </p>
+    <p>You agree not to:</p>
+    <ul>
+      <li>use Marilo for unlawful, harmful, abusive, or fraudulent purposes;</li>
+      <li>harass, threaten, or endanger others;</li>
+      <li>post content that is hateful, sexually explicit, violent, or that
+          impersonates another person;</li>
+      <li>attempt to access another user’s account or data without authorization;</li>
+      <li>interfere with or disrupt the App, servers, or networks;</li>
+      <li>reverse engineer, scrape, or abuse APIs beyond normal App use;</li>
+      <li>upload illegal, infringing, or harmful content; or</li>
+      <li>circumvent Free-plan limits, ads, or subscription controls.</li>
+    </ul>
+    <p>
+      We may suspend or terminate accounts that violate these Terms or create
+      safety or security risks.
+    </p>
+
+    <h2 id="subscription">6. Subscriptions and Payments (Marilo Pro)</h2>
+    <p>
+      Marilo may offer auto-renewing subscriptions (for example, monthly or
+      yearly “Marilo Pro”) through Google Play and/or the Apple App Store.
+      Prices are shown in the store and may vary by country and currency.
+    </p>
+    <p>
+      Payment, billing, renewals, cancellations, refunds, and tax handling are
+      processed by the applicable app store under that store’s terms. You can
+      manage or cancel a subscription in your store account settings.
+    </p>
+    <p>
+      Pro benefits may include features such as personal location history,
+      higher usage limits, sequential-target tools, and an ad-free experience,
+      as described in the App. Benefits may change over time.
+    </p>
+    <p>
+      Unless required by law or store policy, fees are non-refundable once
+      charged. If a payment fails, access to Pro features may be suspended
+      after any applicable grace period.
+    </p>
+
+    <h2 id="ads">7. Advertising</h2>
+    <p>
+      Free users may see advertisements (for example, banners or optional
+      rewarded ads that unlock temporary access to a feature). Pro subscribers
+      are intended to receive an ad-free experience while their subscription is
+      active. Advertising partners may process device and advertising identifiers
+      according to their own policies and applicable consent requirements.
+    </p>
+    <p>
+      The precise location that Marilo collects for its group features is not
+      used to target advertising and is not shared with advertising partners.
+    </p>
+
+    <h2 id="content">8. User Content, Reporting, and Blocking</h2>
+    <p>
+      You retain ownership of content you create (messages, targets, images,
+      and similar). You grant us a limited license to host, process, and
+      display that content as needed to operate Marilo for you and your group
+      members. You are responsible for the content you submit.
+    </p>
+    <p>
+      <strong>Reporting.</strong> Any member can report content from inside the
+      App: press and hold a message to report it, or open a member’s profile
+      and tap “Report user”. The report reaches us together with the content
+      it concerns. You can also write to
+      <a href="mailto:mehmetkayaaslan@outlook.com">mehmetkayaaslan@outlook.com</a>.
+    </p>
+    <p>
+      <strong>Blocking.</strong> Any member can block another member from
+      inside the App. A blocked member’s messages and pings are no longer shown
+      to you and no longer reach your phone as notifications. Blocking hides
+      content; because Marilo is used for safety in the field, it does not hide
+      a member’s location from the group. You can see and undo your blocks
+      under <em>Profile → Blocked users</em>, and you can leave a group at any
+      time.
+    </p>
+    <p>
+      <strong>What we do.</strong> We review every report as soon as possible,
+      remove content that breaks these Terms, and remove or suspend the
+      accounts responsible. Repeated or serious violations end an account
+      permanently. Reports are not shown to other users, and a reported member
+      is not told who reported them.
+    </p>
+
+    <h2 id="third-parties">9. Third-Party Services</h2>
+    <p>
+      Marilo relies on third-party providers such as Google Firebase, Google
+      Maps Platform, Google AdMob, RevenueCat, and — on iOS — Apple’s App
+      Store and push notification services. Your use of those services may also
+      be subject to their terms and privacy policies.
+    </p>
+
+    <h2 id="disclaimer">10. Disclaimer</h2>
+    <p>
+      Marilo is provided on an “as is” and “as available” basis. We do not
+      guarantee uninterrupted service, perfect location accuracy, emergency
+      response, or that the App will meet every purpose. Marilo is not a
+      substitute for emergency services. In an emergency, contact local
+      authorities directly.
+    </p>
+
+    <h2 id="liability">11. Limitation of Liability</h2>
+    <p>
+      To the maximum extent permitted by law, we are not liable for indirect,
+      incidental, special, consequential, or punitive damages, or for loss of
+      data, profits, or goodwill arising from your use of Marilo. Our total
+      liability for any claim relating to the App will not exceed the greater
+      of (a) the amount you paid us for Marilo Pro in the 12 months before the
+      claim or (b) EUR 50, except where liability cannot be limited by law.
+    </p>
+
+    <h2 id="termination">12. Termination</h2>
+    <p>
+      You may stop using Marilo at any time and may delete your account.
+      We may suspend or end access if you violate these Terms, if required by
+      law, or if we discontinue the service. Provisions that by nature should
+      survive (including liability limits and ownership) will survive
+      termination.
+    </p>
+
+    <div class="notice">
+      <strong>Deleting your account does not cancel your subscription.</strong>
+      Subscriptions are billed by the app store, not by Marilo. Cancel an active
+      subscription in your store account settings before deleting your account,
+      or billing may continue.
+    </div>
+
+    <h2 id="changes">13. Changes to These Terms</h2>
+    <p>
+      We may update these Terms when features, pricing, legal requirements, or
+      operations change. The updated Terms will be posted on this page with a
+      revised “Last updated” date. Continued use after changes become effective
+      constitutes acceptance, except where applicable law requires additional
+      consent.
+    </p>
+
+    <h2 id="contact">14. Contact</h2>
+    <p>For questions about these Terms, contact:</p>
+    <p>
+      Application: Marilo<br />
+      Developer: Mehmet Kayaaslan<br />
+      Email:
+      <a href="mailto:mehmetkayaaslan@outlook.com">mehmetkayaaslan@outlook.com</a>
+    </p>
+
+    <p>
+      Related:
+      <a href="privacy.html">Privacy Policy</a> ·
+      <a href="child-safety.html">Child Safety Standards</a> ·
+      <a href="delete-account.html">Account Deletion</a>
+    </p>
 
     <footer>
-      <p>
-        Marilo — Privacy Policy<br>
-        Package name: com.mkayaaslan.rallyo
-      </p>
+      Marilo — Terms of Service<br />
+      Package name: com.mkayaaslan.rallyo
     </footer>
   </main>
 </body>
