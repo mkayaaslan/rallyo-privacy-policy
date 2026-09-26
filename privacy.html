@@ -164,7 +164,7 @@
 
       <p class="meta">
         Effective date: July 10, 2026<br>
-        Last updated: September 24, 2026
+        Last updated: September 26, 2026
       </p>
 
       <p>
@@ -216,6 +216,29 @@
         such as your user identifier, email address, username, profile name,
         biography, profile image, authentication status, group memberships,
         roles, and account settings.
+      </p>
+
+      <h3>Signing in with Google or Apple</h3>
+      <p>
+        You can create an account and sign in with an email address and a
+        password, with Google, or, on iOS, with Apple. When you choose Google or
+        Apple, that provider confirms your identity and shares with Marilo your
+        email address, a provider account identifier and, if you allow it, your
+        name. Marilo uses the name only to suggest your profile name and
+        username, which you can change before your account is created. If you
+        use Apple's &ldquo;Hide My Email&rdquo;, Marilo receives the relay
+        address Apple creates instead of your real one. Marilo does not receive
+        your Google or Apple password.
+      </p>
+      <p>
+        An account created with Google or Apple can optionally be given a
+        password later, from the Profile tab, so that you can also sign in with
+        your email address. Before a password is added, and before such an
+        account is deleted, Marilo asks for your phone's own screen lock
+        (fingerprint, face or PIN) and for your Google or Apple account again.
+        The screen-lock check happens entirely on your device: Marilo never
+        receives your fingerprint, face data or PIN, only whether the check
+        succeeded.
       </p>
 
       <h3>Precise location information</h3>
@@ -275,9 +298,11 @@
         application crashes, a crash report may be sent containing the error,
         a stack trace, the device model, the operating-system version, and an
         installation identifier. Analytics processes aggregated usage events
-        and a pseudonymous application-instance identifier. Neither of these is
-        used to collect the content of your messages, and neither receives the
-        precise location Marilo collects for its group features.
+        and a pseudonymous application-instance identifier, and may derive a
+        general location, such as your country or city, from your device's IP
+        address. Neither of these is used to collect the content of your
+        messages, and neither receives the precise location Marilo collects for
+        its group features.
       </p>
 
       <h3>Language preference</h3>
@@ -566,13 +591,23 @@
         routes, and group activity. Google may process technical or map-related
         information in accordance with its own privacy terms.
       </p>
+      <p>
+        When you search for a place, the text you type, your language and
+        region, and your most recent position, if your device already has one,
+        are sent to Google Places so that nearby results are listed first.
+        Marilo does not store your searches, whether for places or for other
+        users by username.
+      </p>
 
       <h3>Google AdMob</h3>
       <p>
         Marilo includes the Google AdMob advertising framework. When
-        advertising is enabled, AdMob may process advertising identifiers and
-        technical device information in order to deliver and measure ads, in
-        accordance with Google's own privacy terms. See section 16 for details.
+        advertising is enabled, AdMob may process advertising identifiers, your
+        IP address (from which a general location can be estimated), your
+        interactions with the app and its ads, and diagnostic information about
+        the app's performance, in order to deliver and measure ads and to
+        prevent fraud, in accordance with Google's own privacy terms. See
+        section 16 for details.
       </p>
 
       <h3>RevenueCat</h3>
@@ -581,6 +616,15 @@
         your user identifier and purchase events in order to determine whether
         a subscription is active. Payment details are handled by the app store
         you purchased through and are not passed to RevenueCat by Marilo.
+      </p>
+
+      <h3>Google Sign-In and Sign in with Apple</h3>
+      <p>
+        If you sign in with Google or Apple, Google or Apple authenticates you
+        and passes the result to Firebase Authentication, which Marilo uses to
+        manage accounts. Google and Apple process your sign-in under their own
+        privacy policies. When you delete a Marilo account created with Apple,
+        Marilo also asks Apple to revoke the authorization you gave it.
       </p>
 
       <h3>Apple and Google app-store services</h3>
@@ -768,8 +812,9 @@
       <p>
         You can delete your Marilo account yourself, from inside the
         application: open your <strong>Profile</strong> tab, choose
-        <strong>Delete Account</strong>, confirm, and enter your password to
-        verify that you are the account owner.
+        <strong>Delete Account</strong>, confirm, and verify that you are the
+        account owner &mdash; with your password, or, for an account without
+        one, with your phone's screen lock and your Google or Apple account.
       </p>
 
       <p>
@@ -833,9 +878,11 @@
       <p>
         Marilo includes the Google AdMob framework so that advertising can be
         shown to users who do not have an active subscription. Where advertising
-        is enabled, AdMob may process advertising identifiers and technical
-        device information to deliver and measure ads, in accordance with
-        Google's privacy terms.
+        is enabled, AdMob may process advertising identifiers, your IP address
+        (from which a general location can be estimated), your interactions
+        with the app and its ads, and diagnostic information to deliver and
+        measure ads and to prevent fraud, in accordance with Google's privacy
+        terms.
       </p>
 
       <p>
